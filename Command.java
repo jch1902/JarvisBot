@@ -33,7 +33,7 @@ public class Command extends ListenerAdapter
     	if(objMsg.getContentRaw().equalsIgnoreCase(Ref.prefix+"ping")) {
     		objMsgCh.sendMessage(objUser.getAsMention()+ " Pong!").queue();
     	}
-    	if(objMsg.getContentRaw().equalsIgnoreCase(Ref.prefix + "is bowy gay")) {
+    	if(objMsg.getContentRaw().equalsIgnoreCase(Ref.prefix + "is ")) {
     		objMsgCh.sendMessage(objUser.getAsMention() + " Of course he is!").queue();
     	}
     	if(objMsg.getContentRaw().equalsIgnoreCase(Ref.prefix + "clear")){
